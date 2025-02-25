@@ -1,7 +1,6 @@
 # calculator
 
-A new Flutter project to calculate .
-
+A new Flutter project to calculate and convert money
 ## Getting Started
 
 This project is a starting point for a Flutter application.
