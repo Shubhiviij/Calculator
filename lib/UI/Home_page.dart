@@ -126,7 +126,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
 
   void _handleNumberInput(String buttonText) {
     if (buttonText == "." && _currentInput.contains(".")) {
-      return; // Prevent multiple decimal points
+      return;
     }
     _currentInput += buttonText;
     _output = _currentInput;
@@ -194,7 +194,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 _buildButton("INR→USD", backgroundColor: Colors.blueGrey[700]),
               ]),
               Row(children: [
-                //change 1 here
+        
                 _buildButton("USD→INR", backgroundColor: Colors.blueGrey[700]),
                 _buildButton("EUR→USD", backgroundColor: Colors.blueGrey[700]),
                 _buildButton("GBP→USD", backgroundColor: Colors.blueGrey[700]),
